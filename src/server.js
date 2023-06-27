@@ -5,7 +5,7 @@ const port = 3005
 
 app.use(cors())
 
-const frase = require('./frase.json');
+const frase = require('../frase.json');
 
 app.get('/frase', (req, res) => {
   res.header("Content-Type",'application/json');
